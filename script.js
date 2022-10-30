@@ -22,6 +22,7 @@ function CriarCampo(trAlvo, quantidade, numeroPlaceholder) {
         var input = document.createElement("input");
         input.placeholder = numeroPlaceholder
         input.id = "EPROM" + x
+        input.maxLength = 1
         td.appendChild(input);
         tr.appendChild(td);
         contador++
