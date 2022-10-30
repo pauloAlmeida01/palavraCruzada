@@ -17,29 +17,31 @@
             <tr id="tr2">
                 <script>
                     adicionaZonaMorta('tr2', 15)
-                    CriarCampo('tr2', 1, 15)
+                    CriarCampo('tr2', 1, 15, 'dualcore')
                     adicionaZonaMorta('tr2', 4)
-                    CriarCampo('tr2', 1, 1)
-                    CriarCampo('tr2', 1, "")
-                    CriarCampo('tr2', 1, 2)
+                    CriarCampo('tr2', 1, 1, 'cpu')
+                    CriarCampo('tr2', 1, "", 'cpu')
+                    CriarCampo('tr2', 1, 2, 'cpu', 'ula')
                 </script>
             </tr>
             <tr id="tr3">
                 <script>
                     adicionaZonaMorta('tr3', 15)
-                    CriarCampo('tr3', 1, "")
+                    CriarCampo('tr3', 1, "", 'dualcore')
                     adicionaZonaMorta('tr3', 6)
-                    CriarCampo('tr3', 1, "")
+                    CriarCampo('tr3', 1, "", 'ula')
                 </script>
             </tr>
             <tr id="tr4">
                 <script>
                     adicionaZonaMorta('tr4', 9)
-                    CriarCampo('tr4', 1, "8")
-                    CriarCampo('tr4', 1, "6")
-                    CriarCampo('tr4', 3,"")
-                    CriarCampo('tr4', 1,"13")
-                    CriarCampo('tr4', 8,"")
+                    CriarCampo('tr4', 1, "8",'memMassa')
+                    CriarCampo('tr4', 1, "6",'memMassa','eprom')
+                    CriarCampo('tr4', 3,"",'memMassa')
+                    CriarCampo('tr4', 1,"13",'memMassa','i5')
+                    CriarCampo('tr4', 1,"", 'dualcore','memMassa')
+                    CriarCampo('tr4', 6,"",'memMassa')
+                    CriarCampo('tr4', 1,"",'memMassa', 'ula')
 
 
                 </script>
@@ -47,73 +49,80 @@
             <tr id="tr5">
                 <script>
                     adicionaZonaMorta('tr5', 10)
-                    CriarCampo('tr5', 1, "")
+                    CriarCampo('tr5', 1, "", 'eprom')
                     adicionaZonaMorta('tr5', 3)
-                    CriarCampo('tr5', 1, "")
+                    CriarCampo('tr5', 1, "", 'i5')
 
-                    CriarCampo('tr5', 1, "")
+                    CriarCampo('tr5', 1, "",'dualcore')
                     adicionaZonaMorta('tr5', 7)
                 </script>
             </tr>
             <tr id="tr6">
                 <script>
-                    CriarCampo('tr6', 1,"3")
-                    CriarCampo('tr6', 2,"")
-                    CriarCampo('tr6', 1,"13")
-                    CriarCampo('tr6', 2,"")
-                    CriarCampo('tr6', 1,"4")
-                    CriarCampo('tr6', 1,"")
-                    CriarCampo('tr6', 1,"12")
-                    CriarCampo('tr6', 1,"")
-                    CriarCampo('tr6', 1,"5")
-                    CriarCampo('tr6', 2,"")
+                    CriarCampo('tr6', 1,"3" , 'registradores')
+                    CriarCampo('tr6', 2,"", 'registradores')
+                    CriarCampo('tr6', 1,"14" , 'registradores', 'i7')
+                    CriarCampo('tr6', 2,"",'registradores')
+                    CriarCampo('tr6', 1,"4",'registradores', 'ram')
+                    CriarCampo('tr6', 1,"", 'registradores')
+                    CriarCampo('tr6', 1,"12" , 'registradores', 'databus')
+                    CriarCampo('tr6', 1,"", 'registradores')
+                    CriarCampo('tr6', 1,"5", 'eprom' , 'registradores')
+                    CriarCampo('tr6', 2,"", 'registradores')
                     adicionaZonaMorta('tr6', 2)
-                    CriarCampo('tr6', 1,"")
+                    CriarCampo('tr6', 1,"",'dualcore')
                     adicionaZonaMorta('tr6', 7)
                 </script>
             </tr>
             <tr id="tr7">
                 <script>
                     adicionaZonaMorta('tr7', 3)
-                    CriarCampo('tr7', 1,"")
+                    CriarCampo('tr7', 1,"", 'i7')
                     adicionaZonaMorta('tr7', 2)
-                    CriarCampo('tr7', 1,"")
+                    CriarCampo('tr7', 1,"", 'ram')
                     adicionaZonaMorta('tr7', 1)
-                    CriarCampo('tr7', 1,"")
+                    CriarCampo('tr7', 1,"", 'databus')
                     adicionaZonaMorta('tr7', 1)
-                    CriarCampo('tr7', 1,"")
+                    CriarCampo('tr7', 1,"", 'eprom')
                     adicionaZonaMorta('tr7', 4)
-                    CriarCampo('tr7', 1,"")
+                    CriarCampo('tr7', 1,"",'dualcore')
                     adicionaZonaMorta('tr7',7)
                 </script>
             </tr>
             <tr id="tr8">
                 <script>
                     adicionaZonaMorta('tr8', 6)
-                    CriarCampo('tr8', 1,"")
+                    CriarCampo('tr8', 1,"", 'ram')
                     adicionaZonaMorta('tr8', 1)
-                    CriarCampo('tr8', 1,"")
+                    CriarCampo('tr8', 1,"", 'databus')
                     adicionaZonaMorta('tr8', 1)
-                    CriarCampo('tr8', 1,"")
+                    CriarCampo('tr8', 1,"", 'eprom')
                     adicionaZonaMorta('tr8', 4)
-                    CriarCampo('tr8', 1,"")
+                    CriarCampo('tr8', 1,"",'dualcore')
                     adicionaZonaMorta('tr8', 1)
-                    CriarCampo('tr8', 1,"10")
+                    CriarCampo('tr8', 1,"10", 'cs')
                     adicionaZonaMorta('tr8', 1)
-                    CriarCampo('tr8', 1,"16")
+                    CriarCampo('tr8', 1,"16", 'quadcore')
                     adicionaZonaMorta('tr8', 3)
                 </script>
             </tr>
             <tr id="tr9">
                 <script>
                     adicionaZonaMorta('tr9', 3)
-                    CriarCampo('tr9', 1,"18")
+                    CriarCampo('tr9', 1,"18", 'cache')
                     adicionaZonaMorta('tr9', 4)
-                    CriarCampo('tr9', 1,"")
+                    CriarCampo('tr9', 1,"", 'databus')
                     adicionaZonaMorta('tr9', 3)
-                    CriarCampo('tr9', 1,"11")
-                    CriarCampo('tr9', 1,"9")
-                    CriarCampo('tr9', 7, "")
+                    CriarCampo('tr9', 1,"11", 'adressbus')
+                    CriarCampo('tr9', 1,"9", 'adressbus', 'dma')
+                    CriarCampo('tr9',1,"", 'adressbus')
+                    CriarCampo('tr9',1,"",'dualcore','adressbus')
+                    CriarCampo('tr9', 1, "", 'adressbus')
+                    CriarCampo('tr9', 1, "", 'adressbus', 'cs')
+                    CriarCampo('tr9', 1, "", 'adressbus')
+                    CriarCampo('tr9', 1, "", 'adressbus', 'quadcore')
+                    CriarCampo('tr9', 1, "", 'adressbus')
+
                     adicionaZonaMorta('tr9', 2)
 
                 </script>
@@ -121,13 +130,13 @@
             <tr id="tr10">
                 <script>
                     adicionaZonaMorta('tr10', 3)
-                    CriarCampo('tr10', 1,"")
+                    CriarCampo('tr10', 1,"", 'cache')
                     adicionaZonaMorta('tr10', 4)
-                    CriarCampo('tr10', 1,"")
+                    CriarCampo('tr10', 1,"", 'databus')
                     adicionaZonaMorta('tr10', 4)
-                    CriarCampo('tr10', 1,"")
+                    CriarCampo('tr10', 1,"", 'dma')
                     adicionaZonaMorta('tr10', 5)
-                    CriarCampo('tr10', 1,"")
+                    CriarCampo('tr10', 1,"", 'quadcore')
                     adicionaZonaMorta('tr10', 3)
 
                 </script>
@@ -135,15 +144,15 @@
             <tr id="tr11">
                 <script>
                     adicionaZonaMorta('tr11', 3)
-                    CriarCampo('tr11', 1,"")
+                    CriarCampo('tr11', 1,"", 'cache')
                     adicionaZonaMorta('tr11', 2)
-                    CriarCampo('tr11', 1,"7")
+                    CriarCampo('tr11', 1,"7", 'flash')
                     adicionaZonaMorta('tr11', 1)
-                    CriarCampo('tr11', 1,"")
+                    CriarCampo('tr11', 1,"", 'databus')
                     adicionaZonaMorta('tr11', 4)
-                    CriarCampo('tr11', 1,"")
+                    CriarCampo('tr11', 1,"", 'dma')
                     adicionaZonaMorta('tr11', 5)
-                    CriarCampo('tr11', 1,"")
+                    CriarCampo('tr11', 1,"", 'quadcore')
                     adicionaZonaMorta('tr11', 3)
 
                 </script>
@@ -151,8 +160,13 @@
             <tr id="tr12">
                 <script>
                     adicionaZonaMorta('tr12', 2)
-                    CriarCampo('tr12', 1,"17")
-                    CriarCampo('tr12', 6, "")
+                    CriarCampo('tr12', 1,"17", 'threads')
+                    CriarCampo('tr12', 1, "", 'cache', 'threads')
+                    CriarCampo('tr12', 2,"", 'threads')
+                    CriarCampo('tr12', 1,"", 'threads', 'flash')
+                    CriarCampo('tr12', 1,"", 'threads')
+                    CriarCampo('tr12', 1,"", 'threads', 'databus')
+
                     adicionaZonaMorta('tr12', 10)
                     CriarCampo('tr12', 1,"")
                     adicionaZonaMorta('tr12', 3)
@@ -162,36 +176,37 @@
             <tr id="tr13">
                 <script>
                     adicionaZonaMorta('tr13', 3)
-                    CriarCampo('tr13', 1,"")
+                    CriarCampo('tr13', 1,"", 'cache')
                     adicionaZonaMorta('tr13', 2)
-                    CriarCampo('tr13', 1,"")
+                    CriarCampo('tr13', 1,"", 'flash')
                     adicionaZonaMorta('tr13', 12)
 
-                    CriarCampo('tr13', 1,"")
+                    CriarCampo('tr13', 1,"", 'quadcore')
                     adicionaZonaMorta('tr13', 3)
                 </script>
             </tr>
             <tr id="tr14">
                 <script>
                     adicionaZonaMorta('tr14', 6)
-                    CriarCampo('tr14', 1,"")
+                    CriarCampo('tr14', 1,"", 'flash')
                     adicionaZonaMorta('tr14', 12)
-                    CriarCampo('tr14', 1,"5")
-                    CriarCampo('tr14', 2,"")
+                    CriarCampo('tr14', 1,"5", 'quadcore', 'rom')
+                    CriarCampo('tr14', 2,"", 'rom')
                     adicionaZonaMorta('tr14', 1)
                 </script>
             </tr>
             <tr id="tr15">
                 <script>
                     adicionaZonaMorta('tr15', 6)
-                    CriarCampo('tr15', 1,"")
+                    CriarCampo('tr15', 1,"", 'flash')
                     adicionaZonaMorta('tr15', 12)
-                    CriarCampo('tr15', 1,"")
+                    CriarCampo('tr15', 1,"", 'quadcore')
                     adicionaZonaMorta('tr15', 3)
 
                 </script>
             </tr>
         </table>
+        <button onclick="Verificar()">Verificar</button>
     <ul>
         <li>1. CPU dica</li>
         <li>2. ULA dica</li>
