@@ -9,11 +9,10 @@
 </head>
 <body>
 <script src="script.js"></script>
+    <div class="tabelgrafico">
+        <div class="containertabela">
         <table>
-            <tr id="tr1">
-                <script>adicionaZonaMorta('tr1', 22)</script>
-                <td><input type="text" class="zonaMorta" disabled></td>
-            </tr>
+           
             <tr id="tr2">
                 <script>
                     adicionaZonaMorta('tr2', 15)
@@ -206,8 +205,11 @@
                 </script>
             </tr>
         </table>
-        <button onclick="Verificar()">Verificar</button>
-    <ul>
+        
+    </div>
+        
+    <div class="dicas">
+        <ul>
         <li>1. CPU dica</li>
         <li>2. ULA dica</li>
         <li>3. REGISTRADORES dica</li>
@@ -227,6 +229,13 @@
         <li>17. THREADS dica</li>
         <li>18. CACHE dica</li>
     </ul>
+</div>
+
+    </div>
+
+    <div class="botao">
+    <button onclick="Verificar()">Verificar</button>
+    </div>
 </body>
 </html>
 <script>

@@ -4,5 +4,48 @@ input {
 }
 
 .zonaMorta {
-    background-color: black;
+    background-color: none;
+    border: none;
 }
+.tabelgrafico {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: space-around;
+    flex-direction: row;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.dicas {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.dicas ul li {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao button {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: linear-gradient(45deg, blue,red);
+}
+
+
+
