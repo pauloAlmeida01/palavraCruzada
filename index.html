@@ -11,6 +11,7 @@
 <script src="script.js"></script>
     <div class="tabelgrafico">
         <div class="containertabela">
+            <h2>Cruzadinha</h2>
         <table>
            
             <tr id="tr2">
@@ -130,7 +131,9 @@
                 <script>
                     adicionaZonaMorta('tr10', 3)
                     CriarCampo('tr10', 1,"", 'cache')
-                    adicionaZonaMorta('tr10', 4)
+                    adicionaZonaMorta('tr10', 2)
+                    CriarCampo('tr10', 1,"7", 'flash')
+                    adicionaZonaMorta('tr10', 1)
                     CriarCampo('tr10', 1,"", 'databus')
                     adicionaZonaMorta('tr10', 4)
                     CriarCampo('tr10', 1,"", 'dma')
@@ -145,7 +148,7 @@
                     adicionaZonaMorta('tr11', 3)
                     CriarCampo('tr11', 1,"", 'cache')
                     adicionaZonaMorta('tr11', 2)
-                    CriarCampo('tr11', 1,"7", 'flash')
+                    CriarCampo('tr11', 1,"", 'flash')
                     adicionaZonaMorta('tr11', 1)
                     CriarCampo('tr11', 1,"", 'databus')
                     adicionaZonaMorta('tr11', 4)
@@ -167,7 +170,7 @@
                     CriarCampo('tr12', 1,"", 'threads', 'databus')
 
                     adicionaZonaMorta('tr12', 10)
-                    CriarCampo('tr12', 1,"")
+                    CriarCampo('tr12', 1,"", 'quadcore')
                     adicionaZonaMorta('tr12', 3)
                 </script>
             </tr>
@@ -197,45 +200,44 @@
             <tr id="tr15">
                 <script>
                     adicionaZonaMorta('tr15', 6)
-                    CriarCampo('tr15', 1,"", 'flash')
-                    adicionaZonaMorta('tr15', 12)
+                    adicionaZonaMorta('tr15', 13)
                     CriarCampo('tr15', 1,"", 'quadcore')
                     adicionaZonaMorta('tr15', 3)
 
                 </script>
             </tr>
         </table>
-        
+        <div class="botao">
+            <button onclick="Verificar()">Verificar</button>
+            </div>
     </div>
         
     <div class="dicas">
+        <h2>Dicas</h2>
         <ul>
-        <li>1. CPU dica</li>
-        <li>2. ULA dica</li>
-        <li>3. REGISTRADORES dica</li>
-        <li>4. RAM dica</li>
-        <li>5. ROM dica</li>
-        <li>6. EPROM dica</li>
-        <li>7. FLASH dica</li>
-        <li>8. MEMÓRIA DE MASSA dica</li>
-        <li>9. DMA dica</li>
-        <li>10. CS dica</li>
-        <li>11. ADRESS BUS dica</li>
-        <li>12. DATA BUS dica</li>
-        <li>13. I5 dica</li>
-        <li>14. I7 dica</li>
-        <li>15. DUAL CORE dica</li>
-        <li>16. QUAD CORE dica</li>
-        <li>17. THREADS dica</li>
-        <li>18. CACHE dica</li>
+        <li>1. O principal item do hardware e também cérebro da máquina,é responsável por executar todos os processos necessários para o funcionamento.</li>
+        <li>2. Uma peça fundamental da CPU e de mais simples microprocessadores, um circuito digital que realiza operações lógicas e aritméticas uma “grande calculadora eletrônica”.</li>
+        <li>3. É a memória dentro da própria CPU que armazena N bits.</li>
+        <li>4. Permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma informação, somente acessar a mesma.</li>
+        <li>5. Permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma informação, somente acessar a mesma.</li>
+        <li>6. É a memória não-volátil da Unidade de Comando Eletrônico (UCE) do sistema de injeção. </li>
+        <li>7. É uma memória do tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory), cujos chips são semelhantes ao da Memória RAM.</li>
+        <li>8. Tem como função armazenar grandes quantidades de informações.</li>
+        <li>9. Permite que um dispositivo de entrada e saída envie ou receba dados diretamente da memória principal, ignorando a CPU, acelerando as operações que envolvem a memória.</li>
+        <li>10. Uma entrada de controle de muitos circuitos integrados, como chips de memória, permitindo ativar ou desativar o circuito.</li>
+        <li>11. É um canal interno que transmite a localização da RAM dos dados que estão sendo processados ou da instrução que está sendo buscada.</li>
+        <li>12. Um sistema dentro de um computador ou dispositivo, consistindo em um conector ou conjunto de fios, que fornece transporte de dados.</li>
+        <li>13. Processador Intel que contém 4 núcles e 4 threads na sua primeira versão</li>
+        <li>14. Processador Intel que contém 4 núcles e 8 threads na sua primeira versão</li>
+        <li>15. Representa dois núcleos</li>
+        <li>16. Representa quatro núcleos</li>
+        <li>17. Definem como um processador funciona, recebendo e executando instruções.</li>
+        <li>18. Armazena dados para agilizar execução de aplicações. </li>
     </ul>
 </div>
 
     </div>
 
-    <div class="botao">
-    <button onclick="Verificar()">Verificar</button>
-    </div>
 </body>
 </html>
 <script>

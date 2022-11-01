@@ -130,14 +130,13 @@ function Verificar() {
     }
     var respostas = []
 
-    for (i = 0; i < 18; i++) {
-        respostas[x] = string
-    }
+    console.log(string.toUpperCase())
     var resposta = "DUALCOREMEMORIADEMASSACPUULAREGISTRADORESRAMROMEPROMFLASHDMACSADRESSBUSDATABUSI5I7QUADCORETHREADSCACHE"
     if (string == resposta) {
-        alert("acertou papai")
+        alert("Parabéns, você acertou todas as palavras!")
+        string = ''
     } else {
-        alert("errou")
+        alert("Alguma palavra ou campo está incorreta!")
+        string = ''
     }
-    console.log(string.toUpperCase())
 }
