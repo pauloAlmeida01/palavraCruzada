@@ -132,7 +132,7 @@ function Verificar() {
 
     console.log(string.toUpperCase())
     var resposta = "DUALCOREMEMORIADEMASSACPUULAREGISTRADORESRAMROMEPROMFLASHDMACSADRESSBUSDATABUSI5I7QUADCORETHREADSCACHE"
-    if (string == resposta) {
+    if (string.toUpperCase() == resposta) {
         alert("Parabéns, você acertou todas as palavras!")
         string = ''
     } else {
