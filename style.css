@@ -43,6 +43,13 @@ td {
     width: 200px;
     height: 30px;
     border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.botao button:hover {
+    background-color: dimgray;
+    color: black;
+    transition: .8s;
 }
 
 body {
@@ -59,4 +66,10 @@ body {
     display: flex;
     align-items: center;
     color: white;
+}
+td input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
